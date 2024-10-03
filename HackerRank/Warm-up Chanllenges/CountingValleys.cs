@@ -10,10 +10,9 @@ namespace HackerRank.WarmupChanllenges
             int belowSea = 0;
             int seaLevel = 1;
 
-            char[] stepsPath = path.ToCharArray();
             for (int i = 0; i < steps; i++)
             {
-                processStepSeal(stepsPath[i], ref seaLevel);
+                processStepSeal(path[i], ref seaLevel);
 
                 if (seaLevel < 1)
                 {
