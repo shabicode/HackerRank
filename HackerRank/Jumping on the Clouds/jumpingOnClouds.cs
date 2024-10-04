@@ -13,11 +13,7 @@ namespace HackerRank.JumpingontheClouds
 
             while (currentIndex < c.Count - 1)
             {
-                if (currentIndex + 2 < c.Count && c[currentIndex + 2] == 0) {
-                    currentIndex += 2;
-                } else {
-                    currentIndex++;
-                }
+                currentIndex += (currentIndex + 2 < c.Count && c[currentIndex + 2] == 0) ?  2 :  1 ; 
                 jumps++;
             }
 
