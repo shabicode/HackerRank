@@ -10,9 +10,11 @@
   <ItemGroup>
     <None Remove="Warm-up Chanllenges\" />
     <None Remove="Jumping on the Clouds\" />
+    <None Remove="Repeated String\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Warm-up Chanllenges\" />
     <Folder Include="Jumping on the Clouds\" />
+    <Folder Include="Repeated String\" />
   </ItemGroup>
 </Project>

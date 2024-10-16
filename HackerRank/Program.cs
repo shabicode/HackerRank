@@ -2,6 +2,7 @@
 
 using HackerRank.WarmupChanllenges;
 using HackerRank.JumpingontheClouds;
+using HackerRank.RepeatedString;
 using System.Text.RegularExpressions;
 
 #region Counting Valleys
@@ -11,7 +12,7 @@ Console.WriteLine($"Total of Valleys {valley}");
 
 #endregion
 
-
+/*
 Console.WriteLine("\n -------------------------------");
 Console.WriteLine("Jumping on Clouds");
 string path = "0 0 1 0 0 1 0";
@@ -27,4 +28,14 @@ foreach(char cloud in paath)
 int jumps = jumpingOnClouds.jumpingOnTheClouds(clouds);
 
 Console.WriteLine($"Jumps {jumps}");
+Console.ReadKey();
+*/
+
+Console.WriteLine("\n -------------------------------");
+Console.WriteLine("Repeated String");
+
+string s = "cfimaakj";
+long n = 554045874191;
+var result = RepeatedString.repeatedString(s, n);
+Console.WriteLine(result);
 Console.ReadKey();
